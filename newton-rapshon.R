@@ -29,7 +29,6 @@ newton_rapshon = function( valor,tol){
     }else{
       cat ("Iteracion: ",num,"Resultado:\n\n")
       print(resultado,50)
-            ## "valor de x",aux,"valor de f(x)",funcion,"valor f'(x)",derivada,"\n\n")
       points(x = aux, y = resultado)
       if(num>10)
          break;
